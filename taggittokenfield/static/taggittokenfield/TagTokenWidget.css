@@ -1,0 +1,99 @@
+.token-input-list-grappelli{
+	background:#FFF;
+	border:1px solid #CCC;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-box-shadow:0 1px 3px #eaeaea inset;
+	-moz-box-shadow:0 1px 3px #eaeaea inset;
+	box-shadow:0 1px 3px #eaeaea inset;
+	padding:3px;
+	overflow:hidden;
+}
+
+.token-input-token-grappelli{
+	float:left;
+	margin-right:3px;
+	border-radius:3px;
+	padding:0 5px;
+	border:1px solid #CCC;
+	background-color:#EEE;
+	background:#EEE -webkit-linear-gradient(top, #EEE, #DDD);
+	background:#EEE -moz-linear-gradient(top, #EEE, #DDD);
+	background:#EEE linear-gradient(top, #EEE, #DDD);
+	-webkit-box-shadow: 0 1px 0 0 #FFF inset;
+	-moz-box-shadow: 0 1px 0 0 #FFF inset;
+	box-shadow: 0 1px 0 0 #FFF inset;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	text-shadow:0 1px 0 #FFF;
+}
+.token-input-selected-token-grappelli{
+	display:block;
+	border-color:#555;
+	background-color:#CCC;
+	background:#CCC -webkit-linear-gradient(top, #999, #666);
+	background:#CCC -moz-linear-gradient(top, #CCC, #AAA);
+	background:#CCC linear-gradient(top, #CCC, #AAA);
+	-webkit-box-shadow: 0 1px 0 0 #AAA inset;
+	-moz-box-shadow: 0 1px 0 0 #AAA inset;
+	box-shadow: 0 1px 0 0 #AAA inset;
+	color:#FFF;
+	text-shadow:0 -1px 0 #555;
+}
+
+.token-input-delete-token-grappelli{
+	padding:2px;
+	margin:-2px 0;
+	cursor:pointer;
+}
+
+.token-input-token-grappelli > p{
+	float:left;
+	margin:0;
+	padding:0;
+	margin-right:5px;
+}
+
+.token-input-input-token-grappelli > input{
+	border:none;
+	padding:3px !important;
+	border:0;
+	margin:0;
+	height:auto;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	float:left;
+}
+
+.token-input-dropdown-grappelli{
+	background:#FFF;
+	padding:3px;
+	border:1px solid #CCC;
+	border-top:0;
+	margin-left:5px;
+	-webkit-border-radius:0 0 5px 5px;
+	-moz-border-radius:0 0 5px 5px;
+	border-radius:0 0 5px 5px;
+	min-width:200px;
+}
+
+.token-input-dropdown-item-grappelli, .token-input-dropdown-item2-grappelli{
+	margin:0;
+	padding:3px 5px;
+	border:1px solid transparent;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.token-input-selected-dropdown-item-grappelli{
+	border:1px solid #CCC;
+	background-color:#EEE;
+	background:#EEE -webkit-linear-gradient(top, #EEE, #DDD);
+	background:#EEE -moz-linear-gradient(top, #EEE, #DDD);
+	background:#EEE linear-gradient(top, #EEE, #DDD);
+	-webkit-box-shadow: 0 1px 0 0 #FFF inset;
+	-moz-box-shadow: 0 1px 0 0 #FFF inset;
+	box-shadow: 0 1px 0 0 #FFF inset;
+}
