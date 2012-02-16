@@ -857,4 +857,4 @@ $.TokenList.Cache = function (options) {
         return data[query];
     };
 };
-}(django.jQuery));
+}(ttf.jQuery));

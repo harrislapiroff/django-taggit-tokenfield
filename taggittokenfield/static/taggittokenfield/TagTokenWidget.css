@@ -9,6 +9,10 @@
 	box-shadow:0 1px 3px #eaeaea inset;
 	padding:3px;
 	overflow:hidden;
+	width:758px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
 }
 
 .token-input-token-grappelli{

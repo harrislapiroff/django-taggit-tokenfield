@@ -1,7 +1,7 @@
 (function ($) {
 	$(function(){
 		// the theme depends on whether we're using grappelli or not
-		var theme = !!grappelli ? 'grappelli' : 'standard';
+		var theme = 'grappelli' in window ? 'grappelli' : 'standard';
 		// for every element that has the attribute data-token-autocomplete, run the tokenfield script
 		$("[data-token-autocomplete]").each(function(){
 			var $this = $(this),
@@ -39,4 +39,4 @@
 			});
 		})
 	});
-}).call(this, django.jQuery)
+}).call(this, ttf.jQuery)

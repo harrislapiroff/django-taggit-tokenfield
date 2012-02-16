@@ -15,4 +15,4 @@ class TagTokenWidget(forms.TagWidget):
 		css = {
 			'all': ('taggittokenfield/TagTokenWidget.css',),
 		}
-		js = ('taggittokenfield/jquery.tokeninput.js', 'taggittokenfield/TagTokenWidget.js',)
+		js = ('taggittokenfield/jquery-1.7.1.min.js', 'taggittokenfield/jquery.init.js', 'taggittokenfield/jquery.tokeninput.js', 'taggittokenfield/TagTokenWidget.js',)
