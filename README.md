@@ -6,7 +6,7 @@ Django Taggit Token Field
 Installation
 ------------
 
-1. Install `taggittokenfield` somewhere on your Python Path.
+1. Install `taggittokenfield` somewhere on your Python Path. The easiest way to do this may be `pip install git+https://github.com/oberlin/django-taggit-tokenfield#egg=taggittokenfield`.
 2. Add `'taggittokenfield'` to `INSTALLED_APPS` in `settings.py`.
 3. Add `url(r'^tags/', include('taggittokenfield.urls'))` or similar to your `urlpatterns` in `urls.py`.
 
