@@ -7,4 +7,5 @@ setup(
 		version='.'.join([str(v) for v in version]),
 		description='Autocompleting, tokenizing widget for django-taggit.',
 		packages = find_packages(),
+		include_package_data = True,
 	)
